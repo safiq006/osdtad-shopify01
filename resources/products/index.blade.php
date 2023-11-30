@@ -1,9 +1,9 @@
+
 @extends('layouts.master')
 
 @section('title', 'Create Group')
 
 @section('contents')
- echo $collections;
     <section class="bg-gray-100 hidden" id="create-group">
         <div class="py-14">
             <div class="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">

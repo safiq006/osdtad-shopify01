@@ -10,9 +10,11 @@
 
             <div class="self-center ml-3">
                 <span class="text-blue-500 font-semibold">
-                <p style="font-size: 30px;text-align: center;">Welcome to Assignment 1</p>
+                <p style="font-size: 30px;text-align: center;">Shop Name: {{ $shopDomain ?? Auth::user()->name}}</p>
                 </span>
-
+                <span class="text-blue-500 font-semibold">
+                <p style="font-size: 30px;text-align: center;">Shop ID: {{ $shopDomain ?? Auth::user()->id }}</p>
+                </span>
                 <div class="text-blue-500" style="text-align: center;">
                     <div class="mt-1">
                     

@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('collection_id');
+            $table->unsignedBigInteger('shop_id')->nullable();
             $table->string('name', 100)->index();
-            $table->string('handle', 100)->index();
             $table->text('description')->nullable();
             $table->boolean('status')->default(true);
             $table->timestamps();

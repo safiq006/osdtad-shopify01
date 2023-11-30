@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>@yield('title', 'Store FAQ')</title>
+    <title>@yield('title', 'Assignment 1')</title>
     <!-- plugins:css -->
     @include('partials.styles')
     <!-- endinject -->
@@ -26,17 +26,17 @@
                         </svg>
                     </div>
                     <p class="py-2 font-medium">
-                        Shopify + Laravel - FAQ Application
+                        Assignment 1 (Collections & Products)
                     </p>
                 </div>
-                <a target="_blank" href="https://github.com/Ostad-Shopify-App-Development/ostad-shopify-laravel-batch-1"
+                <!-- <a target="_blank" href="https://github.com/Ostad-Shopify-App-Development/ostad-shopify-laravel-batch-1"
                     class="inline-block w-full mt-3 py-2 px-3 text-center text-indigo-600 font-medium bg-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-lg sm:w-auto sm:mt-0 sm:text-sm">
                     Source Code
                 </a>
                 <a href="{{ URL::tokenRoute('group.index') }}"
                     class="inline-block w-full mt-3 py-2 px-3 text-center text-indigo-600 font-medium bg-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-lg sm:w-auto sm:mt-0 sm:text-sm">
                     Group
-                </a>
+                </a> -->
             </div>
         </div>
         @yield('contents')
