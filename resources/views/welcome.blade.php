@@ -10,7 +10,7 @@
 
             <div class="self-center ml-3">
                 <span class="text-blue-500 font-semibold">
-                <p style="font-size: 30px;text-align: center;">Welcome to Assignment 1</p>
+                <p style="font-size: 30px;text-align: center;">Assignment 1 Home</p>
                 </span>
 
                 <div class="text-blue-500" style="text-align: center;">
